@@ -57,3 +57,40 @@ body{
 .navbar a:hover::before{
     width: 100%;
 }
+
+main{
+    padding: 50px;
+    margin-top: 60px;
+    color: #ffffff;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex; /* Define o contêiner como Flexbox */
+    justify-content: space-around; /* Distribui o espaço entre os elementos */
+    align-items: center; /* Alinha os elementos no centro verticalmente */
+    gap: 20px; /* Adiciona espaço entre os elementos */
+    width: 100%;
+    flex-direction: column;
+    margin: auto; /* Centraliza o contêiner horizontalmente */
+    background-color: #d11010;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    flex: 1; /* Permite que cada caixa cresça igualmente */
+    background-color: #3498db;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
