@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Documento carregado e pronto!');
-    // Aqui você pode adicionar mais funcionalidades JavaScript
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('nav');
+
+    menuToggle.addEventListener('click', function() {
+        nav.classList.toggle('active');
+    });
 });
